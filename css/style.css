@@ -1939,4 +1939,8 @@ nav {
     #sat-cursor.sat-white {
         color: white; /* footer par white ho jayega */
       }
+
+      .active-cursor {
+        opacity: 1 !important;
+      }
 }
