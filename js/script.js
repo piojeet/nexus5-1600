@@ -60,10 +60,12 @@ document.addEventListener("click", (e) => {
 
   document.addEventListener("mouseleave", () => {
       cursor.style.opacity = "0";
+      cursor.style.visibility = "visible"
   });
     
   document.addEventListener("mouseenter", () => {
       cursor.style.opacity = "1";
+      cursor.style.visibility = "visible"
   });
 
   const interactiveSelector = 'a, button, input, textarea, select, .clickable';
