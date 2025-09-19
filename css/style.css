@@ -1916,13 +1916,13 @@ nav {
         left: 0;
         width: 34px;
         height: 34px;
-        opacity: 0;
         pointer-events: none;
         /* allow clicks through it */
         transform: translate(-50%, -50%) scale(1);
         transition: transform 150ms ease, opacity 50ms ease;
         will-change: transform, opacity;
         z-index: 99999;
+        opacity: 0;
     }
 
     /* smaller when hovering interactive elements, optional */
