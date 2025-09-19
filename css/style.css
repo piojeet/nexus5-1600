@@ -1922,7 +1922,7 @@ nav {
         transition: transform 150ms ease, opacity 50ms ease;
         will-change: transform, opacity;
         z-index: 99999;
-        opacity: 0;
+        opacity: 0 !important;
     }
 
     /* smaller when hovering interactive elements, optional */
