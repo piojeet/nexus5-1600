@@ -184,7 +184,7 @@ nav {
 
 .nav_logo img {
     /* Logo image size */
-    width: 78px;
+    width: 110px;
 }
 
 .links_nav ul {
@@ -1464,6 +1464,11 @@ nav {
 
     .studen_setlight img {
         width: 15vw;
+    }
+
+    .nav_logo img {
+        /* Logo image size */
+        width: 90px;
     }
 }
 
