@@ -133,6 +133,15 @@ header {
     max-width: 1600px;
     margin: auto;
     padding: 0 5rem;
+    position: relative;
+}
+
+.header_bg {
+    position: absolute;
+    height: 200px;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
 }
 
 .menu_btn,
@@ -156,7 +165,22 @@ nav {
     -ms-flex-align: center;
     align-items: center;
     height: 100px;
+    position: relative;
 }
+
+.nav_logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    /* background-color: var(--primary-color); */
+    border-radius: 50%;
+    top: 0px;
+    text-align: center;
+    align-content: center;
+}
+
 
 .nav_logo img {
     /* Logo image size */
@@ -1767,6 +1791,18 @@ nav {
 
     #sat-cursor {
         display: none;
+    }
+
+    .header_bg {
+        display: none;
+    }
+
+    .nav_logo {
+        position: static;
+        width: fit-content;
+        height: fit-content;
+        left: unset;
+        transform: none;
     }
 }
 
